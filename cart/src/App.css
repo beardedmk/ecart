@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul.hList{
+    background-color: orange;
+    align-items: center;
+    margin: 0;
+    padding: 0.5rem;
+    text-align: -webkit-center;
+}
+.hList li{
+    display: inline-flex;
+    list-style: none;
+    text-align: center;
+    padding: 0.2rem 1.5rem;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+} 
+
+li .uName{
+    color:azure;
+    font-weight: 600;
+    padding-left: 4px;
+}
+
+h1{
+    text-align: center;
+}
+
+.searchBox{
+    width: 20%;
+    padding: 0.7rem;
+    margin: 1rem;
+    border-radius: 0.7rem;
+    border-color: orange;
+    border-style: dotted; 
+}
+
+.footer{
+    position:fixed;
+    bottom: 0;
+    margin-top: 100px;
+    width: 100%;
+    text-align: -webkit-center;
+    background-color: orange;
+    color: white;
+    padding: 1rem 0;
+}
+
+.addProd h1, .updatePro h1, .login h1, .signup  h1{
+    color: orange;
+    margin-bottom: 2rem;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.addProd input, .updatePro input, .login input, .signup input{
+    display: block;
+    width: 100%;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    border-radius: 0.7rem;
+    border-color: orange;
+    border-style: dotted;    
+}
+
+
+.listItems button{
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    font-size: small;
+    font-weight: 200;
+    margin-right: 2px;
+    padding: 1px 6px ;
+    background-color: rgb(204, 150, 2);
+    color: rgb(255, 255, 255);
+}
+
+.addProd button, .updatePro button, .login button, .signup button{
+    margin: 1.5rem 0.8rem 0;
+    padding: 0.5rem;
+    width: 100%;
+    background-color: orange;
+    border-radius: 2rem;
+    border: 0;
+    font-size: large;
+    cursor: pointer;
+    color: rgb(248, 247, 247);
+}
+
+.addProd, .updatePro, .login, .signup{
+    margin: auto;
+    width: 45%;
+    padding-top: 3rem;
+}
+
+.items{
+    text-align: center;
+    margin-top: 48px;
+    padding-bottom: 12rem;
+    color: rgb(206, 134, 0);
+    letter-spacing: 2px;
+}
+
+.items ul li{
+    display: inline-block;
+    padding: 5px;
+    width: 8rem;
+    border: 1px 0px solid orange;
+}
+
+.items ul{
+    margin: 0;
+}
+
+.items .listHead li{
+    background-color: orange;
+    color: white;
+    border: 0.2px solid white;
+}
